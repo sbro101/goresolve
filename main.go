@@ -5,7 +5,7 @@ import (
 )
 
 // Hosts struct
-type Host struct {
+type Data struct {
 	Hostname     string   `json:"hostname,omitempty"`
 	IPv4         []string `json:"ipv4,omitempty"`
 	IPv6         []string `json:"ipv6,omitempty"`
@@ -15,8 +15,8 @@ type Host struct {
 }
 
 // Hostname function
-func Hostname(hostname string, nameserver string) *Host {
-	r := new(Host)
+func Hostname(hostname string, nameserver string) *Data {
+	r := new(Data)
 
 	r.Hostname = hostname
 
