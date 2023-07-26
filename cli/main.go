@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/sbroekhoven/goresolve"
+	"github.com/sbro101/goresolve"
 )
 
 func main() {
