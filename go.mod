@@ -1,4 +1,4 @@
-module github.com/sbroekhoven/goresolve
+module github.com/sbro101/goresolve
 
 go 1.20
 
