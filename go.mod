@@ -1,4 +1,4 @@
-module github.com/sbro101/goresolve
+module github.com/sbro101/goresolve/v2
 
 go 1.22.0
 
