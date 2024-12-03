@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/sbro101/goresolve"
+	"github.com/sbro101/goresolve/v2"
 )
 
 // main is the entry point for the goresolve command line interface.
